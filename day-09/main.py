@@ -1,6 +1,7 @@
 import sys
 
 with open('../' + sys.argv[1]) as f:
-    for line in f.read().splitlines():
+    lines = f.read().splitlines()
+    for line in lines:
         pass       
 
